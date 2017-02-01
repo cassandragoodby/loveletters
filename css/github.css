@@ -59,6 +59,7 @@ footer{
 	color: #4f4f4f;
 	text-decoration: none;
 	font-family: 'Raleway', sans-serif;
+	padding-bottom: 10px;
 }
 
 p{
@@ -73,3 +74,9 @@ p{
 	margin-right: auto;
 	line-height: 45px;
 }
+
+@media only screen and (max-width:550px){
+	img{
+		width:99%;
+	}
+	}
